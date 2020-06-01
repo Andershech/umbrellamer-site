@@ -6,6 +6,9 @@
 header {
     background-color: black ;
 }
+.active {
+    border-bottom: 2px solid white;
+}
 
 .topnav a {
     padding: 10px 10px;
@@ -18,11 +21,15 @@ header {
     transition: 120ms; 
 }
 
+.topnav a:active {
+    border-bottom: 2px red;
+}
+
 ul {
     margin: auto;
     text-align: right;
     font-size: 20px;
-    padding: 50px;
+    padding: 40px;
 }
 
 li{
@@ -34,8 +41,8 @@ li{
 .logo {
     background-color: black;
     float:left; 
-    margin-top: 19px; 
-    margin-left: 10px;
+    padding-top: 19px; 
+    padding-left: 10px;
 }
 
 marquee {
@@ -54,7 +61,7 @@ marquee {
 
 
 .block {
-    height: 300px;
+    height: 400px;
     background-image: url('../images/backgroundTitle.jpg') ;
     background-position: 0 0; background-repeat: no-repeat; background-size: 100%;
 }
@@ -64,5 +71,31 @@ marquee {
     text-align: center;
     padding-top: 115px;
     color: white;
-    text-shadow: 1px 1px2px black;
+    text-shadow: 2px 2px 4px black;
 }
+
+.content {   
+    padding: 50px 250px 50px 250px;
+}
+
+.content p, form {
+    padding-top: 10px;
+    font-size: 20px;
+}
+button.button {
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    background: black;
+    transition: 0.2s;
+  }
+
+button.button:hover { background: rgb(255, 0, 0); }
+
+button.button:active {  
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+

@@ -11,23 +11,44 @@
     <!--head-->  
         <header>
             <div class="logo">
-                <a href="index.html"><img src="assets/images/umbrella.png" width="300px" height="87px"></a>
+                <a href="index.html"><img src="assets/images/umbrella.png" width="250px" height="72px"></a>
             </div>
             <nav>
                 <div class="topnav">
                     <ul>
-                        <li><a href="#">Главная страница</a></li>
+                        <li ><a href="#" class="active">Главная страница</a></li>
                         <li><a href="altpowr.html">Альтернативная энергия</a></li>
                         <li><a href="energytypes.html">Виды энергии</a></li>
-                        <li><a href="">Автор</a></li>
+                        <li><a href="facts.html">Краткие факты</a></li>
+                        <li><a href="author.html">Автор</a></li>
                     </ul>  
                 </div>
             </nav>
             <marquee>Приветствую Вас на моем сайте, посвященному альтернативной энергии! Пожалуйста, ответьте на форму ниже!</marquee>
         </header>
         <div class="block">
-            <h1>ГЛАВНАЯ СТРАНИЦА</h1> 
+            <h1>ГЛАВНАЯ СТРАНИЦА</h1>
         </div>
     <!--headEnd-->
+
+    <!--content-->
+        <div class="content">
+            <h2>Добро пожаловать!</h2>
+            <p>Приветвуя Вас на моем сайте, посвященному теме альтернативной энерги. В своих статьях я расскажу о видах такой энерги, способах добычи и как это отражается на экологии и здоровье простых людей.</p>
+            <br>
+            <p>Ниже будет представлена форма, в которой вы можете оценить мой сайт. Можете поставить предложенную оценку ниже или после его полного исследования. :)</p>
+        
+        <form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Молодец, мне очень понравился сайт. Ставлю оценку 5.</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Очень хороший сайт, видно что старался, ставлю 5.</label><br>
+            <input type="radio" id="" name="gender" value="other">
+            <label for="other">Безоговорочно 5.</label>
+            <br>
+            <p><button class="button" onclick="alert('Спасибо за оценку!')">Отправить</button></p>
+          </form> 
+        </div>
+    <!--contentEnd-->
     </body>
 </html>
