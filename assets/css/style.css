@@ -22,7 +22,7 @@ header {
 }
 
 .topnav a:active {
-    border-bottom: 2px red;
+    border-bottom: 2px solid red;
 }
 
 .menu {
@@ -32,7 +32,7 @@ header {
     padding: 40px;
 }
 
-.menuli {
+.menu li {
     display: inline;
     color: white;
     
